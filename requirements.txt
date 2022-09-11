@@ -1,0 +1,7 @@
+asgiref==3.5.2
+beautifulsoup4==4.11.1
+Django==4.0
+Pillow==9.2.0
+python-environ==0.4.54
+sqlparse==0.4.2
+tzdata==2022.2
