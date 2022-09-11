@@ -23,7 +23,6 @@ environ.Env.read_env(env_file=str(BASE_DIR / "blog" / ".env"))
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'django-insecure-faxd@oxiw#eei6v%o#z60n)s=!@i+(5$aox&#-o4xwgapz#1%u'
 
 SECRET_KEY = env("SECRET_KEY")
 
